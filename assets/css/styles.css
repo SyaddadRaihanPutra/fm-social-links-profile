@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*,body{margin:0;padding:0;box-sizing:border-box;background-color:#141414}
+.wrapper{display:flex;flex-direction:column;justify-content:center;align-items:center;height:100vh;}
+.attribution{margin-top:4rem;font-family:Inter,sans-serif;text-align:center;color:#eaeaea;font-size:.8rem}
+.attribution a{color:#c4f82a;text-decoration:none}
+.card{background-color:#1e1e1e;border-radius:15px;padding:2rem;color:#e0e0e0;font-family:Inter,sans-serif;font-size:1.125rem;line-height:1.75rem;box-shadow:0 10px 20px rgba(0,0,0,.2);width:450px}
+.card-body{display:flex;flex-direction:column;align-items:center;padding:.5rem;background-color:#1e1e1e}
+.card .card-body img{border-radius:50%;margin-bottom:1rem;width:100px;height:100px;object-fit:cover;}
+.card .card-body .profile-title{font-size:1.5rem;margin-bottom: 0.4rem;background-color:#1e1e1e}
+.card .card-body .profile-address{font-size:.875rem;margin-bottom:1.5rem;color:#c4f82a;font-weight:600;background-color:#1e1e1e}
+.card .card-body .profile-description{font-size:0.9rem;margin-bottom:1rem;color:#fff;background-color:#1e1e1e}
+.link-section{display:flex;flex-direction:column;align-items:center;gap:1rem;width:100%;background-color:#1e1e1e}
+.link-section .link-item{background-color:#333;border-radius:5px;padding:.5rem 1rem;color:#fff;font-weight:600;cursor:pointer;width:100%;text-align:center;transition:all .2s;box-shadow:0 5px 10px rgba(0,0,0,.2);border-radius:10px;padding:.7rem;text-decoration:none}
+.link-section .link-item:hover{background-color:#c4f82a;color:#141414}
+@media screen and (max-width:500px){
+.card{width:85%}
+}
